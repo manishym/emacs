@@ -5,11 +5,12 @@
 ;(slime-setup)
 ;(slime-setup '(slime-scratch slime-editing-commands))
 ;(slime-setup '(slime-repl)) ; almost everything
-
+<<<<<<< HEAD
 (require 'git)
 (require 'git-blame)
 (fset 'lisp-copy-defun
    [?\C-r ?\( ?d ?e ?f ?\C-m right ?\C-\M-a ?\C-\M-@ ?\M-w ?\C-x ?o ?\M-> return ?\C-y ?\C-\M-a ?\C-\M-@ ?\C-\M-q ?\M-> ?\C-x ?\C-s ?\C-x ?o])
+=======
 (defvar *home-dir* "/home/manish/")
 (add-to-list 'load-path (concatenate 'string *home-dir* ".emacs.d/lisp/redshank"))
 (global-set-key [f5] 'mark-sexp)
@@ -48,4 +49,4 @@
 
 (setq user-mail-address "manish.ym@gmail.com")
 (setq user-full-name "Manish M Yathnalli")
-
+>>>>>>> 5d1f6467c391822b6b6f7ada61b854effafb8271
